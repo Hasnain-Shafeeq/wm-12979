@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+.goback a{
+	font-family: Poppins-Regular;
+    background-color: #00c57c;
+    position: absolute;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 60px; 
+    text-decoration: none;
+}

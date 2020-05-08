@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('../fonts/Merriweather-Bold.otf');
+}
+/*General CSS*/
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather-Bold;
+}
+
+.w-35 {
+    max-width: 35%;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.border-muted {
+    border-color: #eee !important;
+}
+
+.empty-space-50 {
+    height: 50px;
+    display: block;
+    width: 100%;
+}
+
+.bg-saylani-primary {
+    background-color: #0066b3;
+    background: rgb(0,102,179);
+    background: -moz-linear-gradient(90deg, rgba(0,102,179,1) 37%, rgba(0,51,96,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,102,179,1) 37%, rgba(0,51,96,1) 100%);
+    background: linear-gradient(90deg, rgba(0,102,179,1) 37%, rgba(0,51,96,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0066b3",endColorstr="#003360",GradientType=1);
+}
+
+.bg-saylani-secondary {
+    background: rgb(141,198,63);
+    background: -moz-linear-gradient(90deg, rgba(141,198,63,1) 0%, rgba(108,157,42,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(141,198,63,1) 0%, rgba(108,157,42,1) 100%);
+    background: linear-gradient(90deg, rgba(141,198,63,1) 0%, rgba(108,157,42,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8dc63f",endColorstr="#6c9d2a",GradientType=1);
+}
+
+.text-saylani-primary {
+    color: #0066b3;
+}
+
+.text-saylani-secondary {
+    color: #8dc63f;
+}
+
+.py-6 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+/*Topbar CSS*/
+.topbar {
+    font-size: 14px;
+    padding: 9px 0;
+}
+
+.social-icons ul li, 
+.head-buttons ul li,
+.social-icons, 
+.head-message, 
+.head-buttons {
+    display: inline-block;
+}
+
+/*Header CSS*/
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.logo img {
+    max-width: 230px;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 7px 17px !important;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover,
+li.active a {
+    color: #fff !important;
+    background: #0066b3;
+}
+
+.dropdown-menu a {
+    font-weight: 400 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.dropdown-menu ul li {
+    width: 100%;
+}
+
+ul.second-level {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: max-content;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+li a:hover + ul.second-level,
+ul.second-level:hover {
+    display: inline-block;
+}
+
+ul.second-level li {
+    display: block;
+}
+
+ul.second-level li a {
+    display: block;
+    width: 100%;
+    padding: inherit;
+}
+
+.fa-angle-right {
+    position: absolute;
+    top: 12px;
+    right: 6px;
+}
+
+a.dropdown-item:hover + .fa-angle-right {
+    color: #fff !important;
+}
+
+a#navbarDropdown:hover + .dropdown-menu.p-0 {
+    display: block;
+}
+
+a#navbarDropdown:hover + .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+}
+/*Slider CSS*/
+.news marquee {
+    line-height: 28px;
+}
+
+/*Counters CSS*/
+.counters {
+    font-family: Merriweather-Bold;
+    background-image: url(../images/bg-counters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.counters h2 {
+    font-size: 42px;
+}
+
+/*What We Do CSS*/
+.box-shadow {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+/*Missions n Projects CSS*/
+.separator {
+    width: 55px;
+    height: 3px;
+    display: block;
+    background-color: #8dc63f;
+    margin-bottom: 30px;
+}
+
+.project span {
+    font-family: Merriweather-Bold;
+    font-size: 18px;
+    color: #0066b3;
+    font-weight: bold;
+    margin-left: 10px;
+    position: absolute;
+    top: 28px;
+}
+
+.events marquee {
+    height: 210px;
+}
+
+/*Gallery CSS*/
+.gallery-item {
+    max-width: 19%;
+    display: inline-block;
+    margin: 0 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.7);
+    visibility: hidden;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.gallery-item-content i {
+    background: #00579a;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.gallery-item img:hover + .gallery-item-content,
+.gallery-item-content:hover {
+    visibility: visible;
+    top: 0;
+}
+
+/*Footer CSS*/
+
+.bg-footer {
+    background: rgb(51,49,49);
+    background: -moz-linear-gradient(90deg, rgba(51,49,49,1) 37%, rgba(13,12,12,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(51,49,49,1) 37%, rgba(13,12,12,1) 100%);
+    background: linear-gradient(90deg, rgba(51,49,49,1) 37%, rgba(13,12,12,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333131",endColorstr="#0d0c0c",GradientType=1);
+}
+
+h6.footer-heading {
+    border-bottom: 1px solid #636669;
+    padding-bottom: 7px;
+    width: 80%;
+    position: relative;
+}
+
+h6.footer-heading:after {
+    top: 25px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    border: 2px outset #8dc63f;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer-social i {
+    background-color: #0066b3;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.footer i:hover {
+    background-color: #8dc63f;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/*Responsive CSS*/
+@media screen and (max-width: 900px) {
+    .social h6.dev-heading:after {
+        top: 44px !important;
+    }
+
+    .gallery-item {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .social h6.dev-heading:after {
+        top: 25px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        position: absolute;
+        z-index: 1;
+        text-align: right;
+        top: 0;
+        width: 60%;
+        right: 0;
+    }
+
+    .gallery-item {
+        max-width: 48%;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .logo {
+        position: absolute;
+        z-index: 1;
+        text-align: right;
+        top: 8px;
+        width: 76%;
+        right: 0;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .gallery-item {
+        max-width: 90%;
+    }
+}

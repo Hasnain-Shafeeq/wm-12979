@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+    
+body {
+    font-family: Poppins-Regular;
+    background-image: url("../images/bgbody.png");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    margin: 34px 0;
+}
+
+.rollno {
+    display: inline-block;
+    background: #fff;
+    border-radius: 60px;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1c1d22;
+    margin-top: 7px;
+}
+
+small{
+    color: #fff;
+}
+
+small>a{
+    color: #fcfcfc;
+}
+
+.card {
+    width: 24%;
+    float: left;
+    background-image: url("../images/bgcard.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 28px 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 8px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+.number span {
+    font-size: 56px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("../images/bgnumber.png");
+    color: #fff;
+    line-height: 100px;
+}
+
+.title {
+    font-family: 'Poppins-Bold';
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+.card p {
+    margin-bottom: 24px;
+}
+
+.button>a {
+    text-decoration: none;
+    background: #00c57c;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 100px;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+}
