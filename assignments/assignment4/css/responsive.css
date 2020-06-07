@@ -1,0 +1,65 @@
+/* ------------------------------------------------ Responsive */
+@media only screen and (max-width: 767px) {
+    /* ------------------------------------------------ Home */
+    footer .col-md-3 {
+        padding-top: 15px;
+        padding-bottom: 15px;    
+        border-top: 1px solid rgba(255,255,255,0.1);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    /* ------------------------------------------------ Home */
+    .navbar a {
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+    }
+
+    .whoWeAre .box {
+        width: 49%;
+        display: inline-block;
+    }
+
+    .media h2 {
+        width: 42px !important;
+        height: 36px !important;
+        line-height: 36px !important;
+        font-size: 24px;
+    }
+    
+    .workProcess .media h4 {
+        font-size: 1rem;
+        line-height: normal !important;
+        align-items: center;
+        padding-top: 4px;
+    }
+
+    h2.mainTitle {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .companyValues {
+        background-image: none !important;
+    }
+
+    footer {
+        text-align: center !important;
+    }
+   
+    .devInfo li {
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .whoWeAre .box {
+        width: 100%;
+        display: block;
+    }
+}
