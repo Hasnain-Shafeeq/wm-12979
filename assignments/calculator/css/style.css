@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-light2 {
+    background-color: #f2f3f5;
+}
+
+.main {
+    width: 270px;
+    position: relative;
+    padding: 12px;
+}
+
+tbody {
+    width: 100%;
+}
+
+input[type="text"] {
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.btn.btnType1 {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    border: 1px solid #CCC;
+}
+.btn.btnType2 {
+    width: 100%;
+    height: 97px;
+    text-align: center;
+    border: 1px solid #CCC;
+}
+
+td {
+    padding: 4px !important;
+}
+
+
+/*Box Shadow*/
+.main:before, .main:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.main:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}

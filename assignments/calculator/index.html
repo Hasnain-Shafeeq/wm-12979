@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main mx-auto bg-light my-5 rounded">
+            <table class="table table-borderless table-responsive-sm m-0">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="form-control bg-light" id="screen">
+                </td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light2 btnType1" onclick="clearAll()">C</button></td>
+                <td><button class="btn btn-light2 btnType1" onclick="getNumber('/')">/</button></td>
+                <td><button class="btn btn-light2 btnType1" onclick="getNumber('*')">x</button></td>
+                <td><button class="btn btn-light2 btnType1" onclick="getNumber('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('7')">7</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('8')">8</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('9')">9</button></td>
+                <td rowspan="2"><button class="btn btn-light2 btnType2" onclick="getNumber('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('4')">4</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('5')">5</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('1')">1</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('2')">2</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('3')">3</button></td>
+                <td rowspan="2"><button class="btn btn-light2 btnType2" onclick="getResult()">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="btn btn-light btnType1" onclick="getNumber('0')">0</button></td>
+                <td><button class="btn btn-light btnType1" onclick="getNumber('.')">.</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
