@@ -74,3 +74,8 @@ td {
   right: 10px;
   left: auto;
 }
+
+.goback a {
+    top: 10px;
+    left: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch - Hasnain Shafeeq</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/goback.css">
+</head>
+<body>
+    <div class="goback">
+        <a href="../../index.html">Go To Home</a>
+    </div>
+    <div class="main">
+        <div class="cover">
+            <div class="col"><h2 id="headingHours">00</h2></div>
+            <div class="col"><h2 id="headingMinutes">00</h2></div>
+            <div class="col"><h2 id="headingSeconds">00</h2></div>
+            <div class="col"><h2 id="headingMiliSeconds">00</h2></div>
+            <div class="btnShell">
+                <div class="btns">
+                    <button class="btn" onclick="startMe()" id="btnStart">start timer</button>
+                    <button class="btn" onclick="pauseMe()">pause timer</button>
+                    <br>
+                    <button class="btn" onclick="resetMe()">reset timer</button>
+                    <button class="btn" onclick="saveRecord()" id="btnSave">save record</button>
+                    <br>
+                    <button class="btn" onclick="ViewRecords()" id="btnView">view records</button>
+                    <button class="btn" onclick="clearRecords()" id="btnView">clear records</button>
+                </div>
+            </div>
+            <p>Made By: Hasnain Shafeeq [WM-12979]</p>
+            <button class="btn btnSwitch" onclick="window.location.href='basic/index.html';">Switch To Basic Version</button>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: mainFont;
+    src: url(fonts/digital-7.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: mainFont;
+}
+
+.main {
+    margin: 10% auto;
+    width: fit-content;
+}
+
+.cover {
+    background: rgb(48,48,48);
+    background: -moz-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endColorstr="#252424",GradientType=1);
+    width: fit-content;
+    padding: 18px 16px 14px 16px;
+    text-align: center;
+    border-radius: 8px;
+    border: 8px solid #000;
+}
+
+.col {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    width: 50px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.btnShell {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+button.btn.btnSwitch {
+    width: 97%;
+    margin-top: 20px;
+}
+
+button.btn {
+    background: rgb(48,48,48);
+    background: -moz-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(37,36,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endColorstr="#252424",GradientType=1);
+    border: 0;
+    color: #fff;
+    padding: 4px;
+    margin: 4px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    width: 140px;
+    text-transform: capitalize !important;
+}
+
+button.btn:hover {
+    background: #1b1616 !important;
+}
+
+.btn:active, .btn:focus {
+    outline: 0;
+}
+
+p {
+    color: #fff;
+    margin-top: 8px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+.goback a {
+    top: 10px;
+    left: 10px;
+}
+
+@media only screen and (max-width: 560px) {
+    .cover {
+        width: 270px;
+    }
+
+    .col {
+        display: inline-block;
+        background: #000;
+        color: #fff;
+        width: 36px;
+        padding: 14px 10px;
+        font-size: 1.6em;
+    }
+    
+    .btnShell {
+        width: 100%;
+    }
+
+    button.btn {
+        width: 88%;
+    }
+}
+
